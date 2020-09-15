@@ -15,7 +15,7 @@
   }
 
   #box1,#box2,#box3 { position: relative;
-    background-color: grey;
+    background-color: #CCCC66;
     border: 2px solid black;
     margin: 15px;
     height: 460px;
