@@ -1,0 +1,95 @@
+<style>
+  *{
+  box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .row {
+    width: 100%;
+  }
+
+  #box1,#box2,#box3 { position: relative;
+    background-color: grey;
+    border: 2px solid black;
+    margin: 15px;
+  }
+  #s1{ position: relative;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: maroon;
+    float: right;
+  }
+  #s2{ position: relative;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #336666;
+    float:right;
+  }
+  #s3{ position: relative;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #9999FF;
+    float: right;
+  }
+  #p1,#p2,#p3 { position: relative;
+    padding: 30px;
+    clear: both;
+  }
+  
+  @media (min-width: 992px){
+    .col-lp-4,.col-lp-6,.col-lp-12
+      {
+        float: left;
+        
+      } 
+      .col-lp-4{  
+        width: 33%;
+      }
+      
+      .col-lp-6{
+        width: 50%;
+      }
+      
+      .col-lp-12{
+        width: 100%;
+      }
+    }
+    @media (min-width: 768px) and (max-width:  991px){    .col-tb-4,.col-tb-6,.col-tb-12{
+      float: left;
+    }
+      .col-tb-4{
+        width: 33%;
+      }
+      
+      .col-tb-6{
+        width: 50%;
+      }
+      
+      .col-tb-12{
+        width: 100%;
+      }
+    }   
+    @media (max-width: 767px){
+      .col-ph-4,.col-ph-6,.col-ph-12
+    {
+      float: left;
+    } 
+      .col-ph-4{
+        width: 33%;
+      }
+      
+      .col-ph-6{
+        width: 50%;
+      }
+      
+      .col-ph-12{
+        width: 100%;
+      }
+    }   
+</style>
